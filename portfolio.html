@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Portfolio - Wei Zeng</title>
+      <!-- Css -->
+      <link rel="shortcut icon" href="favicon.ico">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/lightbox.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="css/style.css" rel="stylesheet">
+
+
+      <style type="text/css">
+         
+         .overlay{
+            position: absolute;
+            text-align:center;
+            opacity:0;
+            background-color:rgba(255,255,255,1);
+            height: 75%;
+            width: 100%;
+
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            top:auto;
+         }
+
+      </style>
+
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id="portfolio">
+         <div class="container">
+            <ul class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">Portfolio</li>
+            </ul>
+            <ul class="portfolio-sorting list-inline text-center">
+               <li><a href="#" data-group="all" class="active">All</a>
+               </li>
+               <li><a href="#" data-group="UX">UX/UI Design</a>
+               </li>
+               <li><a href="#" data-group="EI">Exploring Interactions</a>
+               </li>
+               <li><a href="#" data-group="Others">Other works</a>
+               </li>
+               <!--<li><a href="#" data-group="Painting">Painting</a>
+               </li>--> 
+            </ul>
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
+                     <ul class="portfolio-items list-unstyled" id="grid">
+
+
+                        <li class="col-md-6 col-sm-12 col-xs-12 no-gutter" data-groups='["UX"]'>                      
+                           <a href="Logoff.html">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">LogOff</p>
+                                 <div class="overlay"> 
+                                    <div >
+                                       <h3>如何减轻网络依赖带来的焦虑？<h5> 屏幕时间管理APP/深度访谈挖掘需求/营利模式探索</h5></h3>
+                                    </div>                        
+                                 </div>                                   
+                                 <img alt="portfolio" class="background-image" src="img/LogoffCover.jpg" />                              
+                              </div>                                             
+                           </a>
+                        </li> 
+
+                        <li class="col-md-6 col-sm-12 col-xs-12 no-gutter" data-groups='["UX"]'>
+                          <a href="document/Join.pdf" target="_blank">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Join </p> 
+                                 <div class="overlay"> 
+                                    <div >
+                                       <h3>省时又有条理的会议记录工具<h5>需求发现与设计执行/界面设计</h5></h3>
+                                    </div>                        
+                                 </div>         
+                                 <img alt="portfolio" class="background-image" src="img/Joincover.jpg"/>
+                                 
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="col-md-6 col-sm-12 col-xs-12 no-gutter" data-groups='["UX"]'>
+                           <a href="document/Cronos.pdf" target="_blank">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Cronos </p>
+                                 <div class="overlay"> 
+                                    <div >
+                                       <h3>智能时间规划助理<h5>APP+智能手表</h5></h3>
+                                    </div>                        
+                                 </div>                                    
+                                 <img alt="portfolio" class="background-image" src="img/Cronoscover.jpg" />
+                              </div>
+                           </a>
+                        </li>
+
+                         <li class="col-md-6 col-sm-12 col-xs-12 no-gutter" data-groups='["UX"]'>
+                           <a href="Holofit.html">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Holofit</p>
+                                <div class="overlay"> 
+                                    <div >
+                                       <h3>基于手势交互的未来健身体验<h5>定量研究/用户参与式设计/手势设计</h5></h3>
+                                    </div>                        
+                                 </div>                                   
+                                 <img alt="portfolio" class="background-image" src="img/Holofitcover.jpg" />
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="col-md-6 col-sm-12 col-xs-12 no-gutter" data-groups='["EI"]'>                      
+                           <a href="Monkey.html">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Sensitive Monkeys </p>
+                                 <div class="overlay"> 
+                                    <div >
+                                       <h3>给予温暖和陪伴的互动玩具<h5>实体装置/Arduino/交互动作研究</h5></h3>
+                                    </div>                        
+                                 </div>                                   
+                                 <img alt="portfolio" class="background-image" src="img/Monkeycover.jpg" />                              
+                              </div>                                             
+                           </a>
+                        </li> 
+
+
+                        <li class="col-md-6 col-sm-12 col-xs-12 no-gutter" data-groups='["Others"]'>                      
+                              <div class="background-image-holder">
+                                 <p >To Be Released...</p>                                                                  
+                              </div>                                             
+                        </li> 
+                     <!--
+                        <li class="col-md-6 col-sm-12 col-xs-12 no-gutter" data-groups='["Others"]'>
+                           <a href="img/StickersIcons/final.jpg" data-lightbox="true">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Project Name </p>
+                                 <img alt="portfolio" class="background-image" src="img/StickersIcons.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                     -->
+                        <!-- 
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["Graphic"]'>
+                           <a href="#">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Project Name </p>
+                                 <img alt="portfolio" class="background-image" src="img/portfolio6.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["Graphic"]'>
+                          <a href="#">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Project Name </p>
+                                 <img alt="portfolio" class="background-image" src="img/portfolio7.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["Painting"]'>
+                          <a href="#">
+                              <div class="background-image-holder">
+                                 <p class="lead project-title">Project Name </p>
+                                 <img alt="portfolio" class="background-image" src="img/portfolio8.jpg" />
+                              </div>
+                           </a>
+                        </li>
+						--> 
+					   </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- script -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/lightbox-plus-jquery.js"></script>
+      <script src="js/jquery.shuffle.min.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/script.js"></script>
+
+      <script>
+         $(document).ready(function(){
+            $(".overlay").hover(
+            function(){
+               $(this).animate({opacity:'0.9'})
+                              
+            },
+            function(){
+               $(this).animate({opacity:'0'})
+            });
+         });
+      </script>
+
+   </body>
+</html>
